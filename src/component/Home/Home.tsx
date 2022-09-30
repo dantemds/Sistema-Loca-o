@@ -1,8 +1,12 @@
+import './style.css'
+
 const Home = () =>{
 
     return(
+        <div className='container'>
         <div className="wrap-content">
-            <h3>Bem vindo!</h3>
+            <h2>Bem vindo!</h2>
+        </div>
         </div>
     )
 }
